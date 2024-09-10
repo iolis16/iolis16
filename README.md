@@ -1,5 +1,5 @@
 ## Hi there, I'm Ioli! 👋
-#### I'm a first-year CS student at the University of Washington.
+#### I'm a second-year CS student at the University of Washington.
 - 💡 **interested in:** web and game development
 - 👥 **looking to:** collaborate and contribute to open-source projects
 - 📫 **email:** iolis@cs.washington.edu
