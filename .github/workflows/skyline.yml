@@ -1,0 +1,29 @@
+name: light up the skyline
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # once a day (1am Pacific)
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Light the windows
+        run: python3 scripts/skyline.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          GOAL: "500" # contributions that fill the whole skyline, change as you like
+
+      - name: Commit if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add skyline-dark.svg skyline-light.svg
+          git diff --cached --quiet || (git commit -m "🏙️ light up the skyline" && git push)
