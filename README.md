@@ -1,9 +1,14 @@
-## Hi there, I'm Ioli! 👋
-#### I'm a third-year CS student at the University of Washington.
-- 💡 **interested in:** web and game development
-- 👥 **looking to:** collaborate and contribute to open-source projects
-- 📫 **email:** iolis@cs.washington.edu
-- 🤝 **linkedin:** www.linkedin.com/in/ioli-shrivastava
+`Hi there, I'm Ioli! 👋` <br>
+`I'm a CS student at the University of Washington.`
 
-##### Languages: Python, Java, JavaScript, HTML, CSS, TypeScript
-##### Technologies & Frameworks: Figma, GitHub, AWS, Firebase, Microsoft Office 
+   <picture>
+     <source media="(prefers-color-scheme: dark)" srcset="skyline-dark.svg">
+     <source media="(prefers-color-scheme: light)" srcset="skyline-light.svg">
+     <img alt="a skyline lighting up with my GitHub contributions" src="skyline-light.svg">
+   </picture>
+
+`📫 Email: iolis@cs.washington.edu` <br>
+`🤝 LinkedIn: www.linkedin.com/in/ioli-shrivastava` <br>
+
+`Languages: Java, Python, C, TypeScript, JavaScript, SQL (PL/SQL)` <br> 
+`Technologies & Frameworks: React, Node.js, NestJS, OCI, Terraform, Kubernetes, Ollama, Git, Linux`
